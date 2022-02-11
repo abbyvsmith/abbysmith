@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ab</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/logoBlackTransparent.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav id="nav">
+            <a href="./index.html"><div id='logo'></div></a>
+            <ul>
+                <li><a href="./index.html" class="underline">about</a></li>
+                <li><a href="./design.html" class="underline">design</a></li>
+                <li><a href="./visGallery.html" class="underline">visual communication</a></li>
+                
+            </ul>
+            <script src="javascript/script.js"></script>
+        </nav>
+        
+
+        <nav id="mobileNav">
+            <a href="./index.html"><div id='logo'></div></a>
+
+            <ul id="dropdown" onclick="unDrop()">
+                <li><a href="./index.html" >about</a></li>
+                <li><a href="./design.html" class="underline">design</a></li>
+                <li><a href="./visGallery.html" class="underline">visual communication</a></li>
+            </ul>
+            
+            <button id="menu" onclick="drop()"></button>
+            <script src="./javascript/mobile.js"></script>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="centerDiv">
+            <h1 >the problem and my role in fixing it</h1>
+
+            <p >
+                the current solution WWU has for planning schedules and accessing information on courses that 
+                will be offered is classfinder; it was built and deployed 9 years before i was even born, so out of date
+                is an understatement. the mission this year was to create a completely new solution to planning and building schedules,
+                with one code base that could be used on web, apple, and android. <br><br>
+
+                because i am a ux minor, my role in this project was ux designer. up until this point,
+                i have done all the initial user research, created personas and user journeys, did all the wireframing,
+                and created 3 different versions of a prototype for our "final" design in sketch & figma, while getting
+                feedback after each one to find the pain points in my work. <br><br>
+
+            </p>
+
+            <img src="./designWork/classfinder/original.png" class="leftImg" alt="">
+            <p class="caption">old solution</p>
+            <br><br>
+
+            <h1>the whiteboard</h1>
+            <p>
+                there are 6 people on the team, and to start the process, we hit the white boards and 
+                brainstormed what direction we wanted to take,
+                keeping in mind who would be using the software, and what they would know going in.
+
+            </p>
+
+            <img src="./designWork/classfinder/whitebrd1.png" alt="" class="leftImg">
+            <img src="./designWork/classfinder/whitebrd3.jpg" alt="" class="leftImg">
+            <img src="./designWork/classfinder/whitebrd0.png" alt="" class="leftImg">
+            <br><br> <br><br>
+
+            
+
+            <h1>the user research</h1>
+            <p>
+                my first task was initial user research, including
+                standing in the main campus square for 6 hours over a couple days, with a huge qr code to a feedback form to get input about 
+                the current solution so we could understand where & how students get their information to start building schedules,
+                and how we could make the process better. during that time, i also had the priviledge to talk to some
+                students in person, which led me to insights i wouldn't have gotten otherwise - for example the honors program
+                has a totally different way of getting information about schedules and necessary classes, and there is a
+                problematic breakdown in communication between the honors program and the university regarding the information
+                listed on classfinder. <br> <br>
+                the feedback form was a huge success. we had 122 responses, and 32% of them were first year students which was 
+                so important, because we're focusing our attention on designing for students who haven't already been using the current solution
+                and will be using the new one for 3+ more years. the most surprising insight we found from the feedback form
+                was that many students actually use classfinder to find their classes, instead of using univeristy or department
+                resources. that was a critical piece of information because as computer science majors we have a very specific 
+                path to follow that is given to you by an advisor, and you have to start following it early. most of the people on the team
+                had only ever used classfinder to build schedules with the classes they already knew they needed to take, not to find classes to take. 
+                <br> <br>
+
+            </p>
+
+            
+            <br><br> <br>
+        
+            <h1>the sketchbook</h1>
+            <p>
+                working through the problems on paper. user stories, flows, information from the old solution,
+                wireframes, and many questions i needed 
+                to find answers to
+            </p>
+
+            
+
+            <!-- slideshow display - taken from w3 schools -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book8.jpg" style="width:100%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book5.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book4.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/bookPersona3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/bookPersona2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/bookPersona1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/bookPersona0.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book7.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book6.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book11.jpg" style="width:100%">
+                </div>   
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book13.jpg" style="width:100%">                  
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book10.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book3.jpg" style="width:100%">
+                    
+                </div>
+                <div class="mySlides fade">
+                    <img src="./designWork/classfinder/book14.jpg" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
+            <br> <br> <br>
+            
+            <h1>the first attempts</h1>
+            <p>
+                as it goes in design, the first iteration i sent out to be reviewed was NOT a success. my original idea was a "wizard" layout for searching -
+                a step by step, choose-one-thing-per-screen type of layout so it could easily transfer to mobile devices. 
+                after i sent the prototype out and got feedback, i realized the layout i came up with was not going to work for the students. 
+                this was the first time my design work had been critiqued on a larger scale, and 
+                it was definitely humbling at first. after a day of processing my feelings i realized how valuable their perspectives were,
+                and i came up with a new solution for the search screen that i loved, and that would be a much better experience for the users.
+            </p>
+            <div id="parent">
+                <a href="https://www.figma.com/proto/QvAgno3mCSCnBxEtjzOIi4/!classfinder02?node-id=0%3A1294&starting-point-node-id=0%3A1059" target="_blank">
+                    <img src="./designWork/classfinder/proto2.png" class="leftImg" id="child" alt="">
+                </a>
+            </div>
+            <p class="caption">the first clickable prototype</p>
+
+
+            <br><br>
+            
+            <h1>the current solution</h1>
+            <div id="parent">
+                <a href="https://www.figma.com/proto/S5EQXN1VVHFZ975dNIA7e7/!classfinder03?node-id=211%3A2307&starting-point-node-id=211%3A2307" target="_blank">
+                    <img src="./designWork/classfinder/redesign.png" class="leftImg" id="child" alt="">
+                </a>
+            </div>
+            <p class="caption">the current solution, still in progress</p>
+    
+        </div>
+    
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+
+<script src="./javascript/slideshow.js"></script>

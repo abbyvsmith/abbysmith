@@ -5,46 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ab</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./images/logoBlackTransparent.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-
-
 </head>
 
 <body>
-
     <header>
         <nav id="nav">
-            <a href="#top"><div id='logo'></div></a>
+            <a href="./index.html"><div id='logo'></div></a>
             <ul>
-                <li><a href="#0" class="underline">about</a></li>
-                <li><a href="#1" class="underline">webdev</a></li>
-                <li><a href="#2" class="underline">communicating visually</a></li>
-                <li><a href="#3" class="underline">photography</a></li>
-                <li><a href="./visGallery.html" class="underline">gallery</a></li>
+                <li><a href="./index.html" class="underline">about</a></li>
+                <li><a href="./design.html" class="underline">design</a></li>
+                <li><a href="./visGallery.html" class="underline">visual communication</a></li>
+                
             </ul>
             <script src="javascript/script.js"></script>
         </nav>
         
 
         <nav id="mobileNav">
-            <a href="#top"><div id='logo'></div></a>
+            <a href="./index.html"><div id='logo'></div></a>
 
             <ul id="dropdown" onclick="unDrop()">
-                <li><a href="#0" >about</a></li>
-                <li><a href="#1" >webdev</a></li>
-                <li><a href="#2" >communicating visually</a></li>
-                <li><a href="#3" >photography</a></li>
-                <li><a href="./visGallery.html">gallery</a></li>
+                <li><a href="./index.html" >about</a></li>
+                <li><a href="./design.html" class="underline">design</a></li>
+                <li><a href="./visGallery.html" class="underline">visual communication</a></li>
             </ul>
             
             <button id="menu" onclick="drop()"></button>
             <script src="./javascript/mobile.js"></script>
-            
         </nav>
 
         
@@ -71,6 +64,8 @@
             </div>
         </div>
 
+        <hr>
+
 
         <!-- ABOUT -->
         <div class="row" id="0">
@@ -83,14 +78,58 @@
                     at western washington university. i'm the president of the <a href="https://wwuawc.com/" target="blank"class="pageLink">agic</a>
                     (association for gender inclusion in computing), 
                     i design and create websites like this one, take pictures (mostly portraits) on my pentax k1000 
-                    film camera, make not-for-profit jewelry, and a bunch more. scroll down to learn more 
+                    film camera, propogate as many plants as i can get my hands on, knit whatever i can to keep my friends cozy, and a bunch more. scroll down to learn more 
                     about me and my creative endeavors! </p>
             </div>
         </div>
 
+        <hr>
+
+        <!-- VIS COMM -->
+        <div class="row" id="2">
+            
+            <div class="bigBox">
+                <h2>visual communication (<a href="./visGallery.html" class="pageLink">gallery</a> )</h2> 
+                <p>
+
+                    during my years at wwu, my favorite classes have always been the classes i've taken 
+                    for my ux minor. my sophomore year, i took the hardest class i've taken to date: 
+                    the foundations of visual communications. it was a three hour long class twice a week,
+                    and i had to fill eight 8.5" by 11" pages per week. it made my 400 level 
+                    systems classes look easy. before this class, i thought i was terrible at drawing. 
+                    but that quarter i learned that the biggest obstacle wasn't my skill, but my own perfectionism. 
+                    foundations of visual comm taught me how to be bad at things on the first try, 
+                    how to be confident and decisive in my motions- to draw without using a pencil before a pen, and though my own
+                    exporations in recreating the objects and space around me, i learned an entirely 
+                    different way to see the world - the parts and how they create their sums. 
+                    
+
+                </p>
+                
+            </div>
+            <div class="smallBox" id="parent">
+                <div class="vertCenter">
+                    <a href="./visGallery.html"><img src="./visualComm/scanned art 16.jpg" class="twoImages" id="child" alt=""></a>
+                    <a href="./visGallery.html"><img src="./images/sheep.jpg" class="twoImages" id="child" alt=""></a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <hr>
 
         <!-- WEBDEV -->
         <div class="row" id="1">
+            <div class="smallBox" id="parent">
+                <div class="vertCenter">
+                    <img src="./images/kentakesphotos.png" class="twoImages" id="child" alt="" >
+                    <a href="https://myfiverules.com/" target="_blank">
+                        <img src="./images/myFive.png" class="twoImages" id="child" alt="" >
+                    </a>
+                </div>
+                
+            </div>
             <div class="bigBox">
                 <h2>web development</h2>
                 <p>after taking an introductory web development class in my freshman year, i found a love
@@ -100,59 +139,37 @@
                     aside from my own; the first is <a href="https://myfiverules.com/" target="blank" class="pageLink">myfiverules.com</a> , 
                     which was a job i took customizing a squarespace site. the second site i built from the ground up
                     for one of my favorite creative friends - <a href="https://kentakesphotos.com/" target="blank"  class="pageLink">kentakesphotos.com</a> . 
-                    <!-- i also recently put together a quick portfolio site for a grad student friend who wanted something
-                    super simple: <a href="https://a-gavin.github.io/" target="blank"  class="pageLink">a-gavin</a>-->
+                    
                     
                 </p>
 
             </div>
-            <div class="smallBox" id="parent">
-                <img src="./images/kentakesphotos.png" class="twoImages" id="child" alt="" >
-                <img src="./images/myFive.png" class="twoImages" id="child" alt="" >
-            </div>
+            
         </div>
 
 
-        <!-- VIS COMM -->
-        <div class="row" id="2">
-            <div class="smallBox" id="parent">
-                <img src="./images/vans.jpg" class="twoImages" id="child" alt="">
-                <img src="./images/sheep.jpg" class="twoImages" id="child" alt="">
-            </div>
-            <div class="bigBox">
-                <h2>visual communication (<a href="./visGallery.html" class="pageLink">gallery</a> )</h2>
-                <p>
-                    during my time at wwu, my favorite classes have always been my design classes. i love
-                    coding, and software development feeds my analitical side in a very real way, but 
-                    my design classes spark a fire in me.
-                    my sophomore year, i took the hardest and most rewarding class i've ever taken: foundations
-                    of visual communication. it was exhausting in the way a long hike is, where you struggle really hard 
-                    on the way up but once you reach the top and see how far you've come you feel like you can breathe for
-                    the first time. this class pushed me to think about the world from a new perspective
-                    and create like never before, and i haven't stopped drawing since.  <br>
-                    
-
-                </p>
-                
-            </div>
-        </div>
+        <hr>
 
         <!-- PHOTOGRAPHY -->
         <div class="row" id="3">
             <div class="bigBox">
                 <h2>photography</h2>
                 <p>
-                    when i was in high school, i took a film photography class to fill my art credits.
-                    that class started a passion for film photography that I've carried with me since.
-                    i believe that black and white portrait photography on film shows us what we really
-                    look like. i love digital photography, but recently i think we have lost sight of 
-                    what we really look like. i believe that b&w film pictures can capture what someone 
-                    really looks like, what their personality eminantes - what their soul conveys.
+                    in my senior year of high school, i took a film photography class to fill my art credits.
+                    at first, i didn't get the appeal, because i started the class taking pictures of "things"
+                    (our first assignment was "person, place, thing"). as soon as i developed my roll for "person",
+                    i realized that black and white film can show you what a person really looks like.
+                    it shows all of the things you can see when you're around someone in real life - 
+                    their energy, how they feel, how they make others feel, how they present 
+                    themselves in the world. the question i love the most always comes after a smile when 
+                    i show someone their film portraits: "is that what i really look like?"
                 </p>
             </div>
             <div class="smallBox" id="parent">
-                <img src="./images/film2.JPG" class="twoImages" id="child" alt="">
-                <img src="./images/film3.JPG" class="twoImages" id="child" alt="">
+                <div class="vertCenter">
+                    <img src="./images/film2.JPG" class="twoImages" id="child" alt="">
+                    <img src="./images/film3.JPG" class="twoImages" id="child" alt="">
+                </div>
             </div>
         </div>
 
@@ -162,8 +179,8 @@
 
     <footer>
         <ul>
-            <li><a href="#" class="underline">linkedin</a></li>
-            <li><a href="#" class="underline">github</a></li>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
         </ul>
     </footer>
 
