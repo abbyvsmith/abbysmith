@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a href="#maincontent" id="skipNav" class="screenreaderText">skip to content</a>
     <header>
         <nav id="nav">
             <a href="./index.html"><div id='logo'></div></a>
@@ -36,7 +37,7 @@
                 <li><a href="./visGallery.html" class="underline">visual communication</a></li>
             </ul>
             
-            <button id="menu" onclick="drop()"></button>
+            <button id="menu" onclick="drop()" aria-label="open menu"></button>
             <script src="./javascript/mobile.js"></script>
         </nav>
 
@@ -44,7 +45,8 @@
 
     </header>
 
-    <main>
+    <main id="maincontent">
+        
 
         <!-- INTRO -->
         <div class="row">
@@ -75,7 +77,7 @@
             <div class="bigBox">
                 <h2>about me</h2>
                 <p>i'm a computer science major with a user experience design minor and a web development certificate 
-                    at western washington university. i'm the president of the <a href="https://wwuawc.com/" target="blank"class="pageLink">agic</a>
+                    at western washington university. i'm the president of the <a href="https://wwuawc.com/" target="_blank" class="pageLink" aria-label="Association for Gender In Computing website - opens a new tab">agic</a>
                     (association for gender inclusion in computing), 
                     i design and create websites like this one, take pictures (mostly portraits) on my pentax k1000 
                     film camera, propogate as many plants as i can get my hands on, knit whatever i can to keep my friends cozy, and a bunch more. scroll down to learn more 
@@ -124,7 +126,7 @@
             <div class="smallBox" id="parent">
                 <div class="vertCenter">
                     <img src="./images/kentakesphotos.png" class="twoImages" id="child" alt="screenshot of a photography website" >
-                    <a href="https://myfiverules.com/" target="_blank">
+                    <a href="https://myfiverules.com/" target="_blank" aria-label="Portfolio site - opens a new tab">
                         <img src="./images/myFive.png" class="twoImages" id="child" alt="" >
                     </a>
                 </div>
@@ -180,8 +182,8 @@
 
     <footer>
         <ul>
-            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
-            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="_blank" class="underline" aria-label="Abby's linkedin - opens a new tab">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="_blank" class="underline" aria-label="Abby's Github - opens a new tab">github</a></li>
         </ul>
     </footer>
 

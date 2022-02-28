@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a href="#maincontent" id="skipNav" class="screenreaderText">skip to content</a>
 
     <header>
         <nav id="nav">
@@ -37,13 +38,13 @@
                 <li><a href="./visGallery.html" class="underline">visual communication</a></li>
             </ul>
             
-            <button id="menu" onclick="drop()"></button>
+            <button id="menu" onclick="drop()" aria-label="open menu"></button>
             <script src="./javascript/mobile.js"></script>
         </nav>
 
     </header>
 
-    <main>
+    <main id="maincontent">
         <div class="centerDiv">
             <h1 >the problem and my role in fixing it</h1>
 
@@ -180,7 +181,7 @@
                 and i came up with a new solution for the search screen that i loved, and that would be a much better experience for the users.
             </p>
             <div id="parent">
-                <a href="https://www.figma.com/proto/QvAgno3mCSCnBxEtjzOIi4/!classfinder02?node-id=0%3A1294&starting-point-node-id=0%3A1059" target="_blank">
+                <a href="https://www.figma.com/proto/QvAgno3mCSCnBxEtjzOIi4/!classfinder02?node-id=0%3A1294&starting-point-node-id=0%3A1059" target="_blank" aria-label="Figma prototype of app- opens a new tab">
                     <img src="./designWork/classfinder/proto2.png" class="leftImg" id="child" alt="">
                 </a>
             </div>
@@ -191,7 +192,7 @@
             
             <h1>the current solution</h1>
             <div id="parent">
-                <a href="https://www.figma.com/proto/S5EQXN1VVHFZ975dNIA7e7/!classfinder03?node-id=211%3A2307&starting-point-node-id=211%3A2307" target="_blank">
+                <a href="https://www.figma.com/proto/S5EQXN1VVHFZ975dNIA7e7/!classfinder03?node-id=211%3A2307&starting-point-node-id=211%3A2307" target="_blank" aria-label="Figma prototype of app- opens a new tab">
                     <img src="./designWork/classfinder/redesign.png" class="leftImg" id="child" alt="">
                 </a>
             </div>
@@ -203,8 +204,8 @@
 
     <footer>
         <ul>
-            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
-            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="_blank" class="underline" aria-label="Abby's linkedin - opens a new tab">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="_blank" class="underline" aria-label="Abby's Github - opens a new tab">github</a></li>
         </ul>
     </footer>
 

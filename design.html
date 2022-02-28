@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <a href="#maincontent" id="skipNav" class="screenreaderText">skip to content</a>
 
     <header>
         <nav id="nav">
@@ -39,7 +40,7 @@
                 <li><a href="./visGallery.html" class="underline">visual communication</a></li>
             </ul>
             
-            <button id="menu" onclick="drop()"></button>
+            <button id="menu" onclick="drop()" aria-label="open menu"></button>
             <script src="./javascript/mobile.js"></script>
         </nav>
 
@@ -47,7 +48,7 @@
 
     </header>
 
-    <main>
+    <main id="maincontent">
 
         <!--moodfit-->
         <div class="row">
@@ -143,8 +144,8 @@
 
     <footer>
         <ul>
-            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
-            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="_blank" class="underline" aria-label="Abby's linkedin - opens a new tab">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="_blank" class="underline" aria-label="Abby's Github - opens a new tab">github</a></li>
         </ul>
     </footer>
 

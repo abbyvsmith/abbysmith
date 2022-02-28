@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <a href="#maincontent" id="skipNav" class="screenreaderText">skip to content</a>
 
     <header>
         <nav id="nav">
@@ -39,18 +40,18 @@
                 <li><a href="./visGallery.html" class="underline">visual communication</a></li>
             </ul>
             
-            <button id="menu" onclick="drop()"></button>
+            <button id="menu" onclick="drop()" aria-label="open menu"></button>
             <script src="./javascript/mobile.js"></script>
         </nav>
 
     </header>
 
-    <main>
+    <main id="maincontent">
 
         <div class="centerDiv">
             <h1>the research behind the logo</h1>
             <br>
-            <a href="https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding" target="_blank"> <img src="./designWork/agic/womenInCS.png" class="leftImg" alt=""></a>
+            <a href="https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding" target="_blank" aria-label="When women stopped coding article - opens a new tab"> <img src="./designWork/agic/womenInCS.png" class="leftImg" alt=""></a>
             <p >
                 the inspiration for the new logo came when i was doing some research for a presentation on diversity in 
                 computer science. i came across this graph when researching the number for bachelor's degrees earned by 
@@ -97,8 +98,8 @@
 
     <footer>
         <ul>
-            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="blank" class="underline">linkedin</a></li>
-            <li><a href="https://github.com/abbyvsmith" target="blank" class="underline">github</a></li>
+            <li><a href="https://www.linkedin.com/in/abby-k-smith/" target="_blank" class="underline" aria-label="Abby's linkedin - opens a new tab">linkedin</a></li>
+            <li><a href="https://github.com/abbyvsmith" target="_blank" class="underline" aria-label="Abby's Github - opens a new tab">github</a></li>
         </ul>
     </footer>
 
